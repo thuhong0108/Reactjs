@@ -1,0 +1,33 @@
+.contact {
+    margin-top: 100px;
+    height: 63vh;
+
+    &__heading {
+        font-size: 27px;
+        margin-bottom: 15px;
+    }
+
+    &__name {
+        font-size: 18px;
+        padding-left: 15px;
+        margin-bottom: 30px;
+    }
+
+    &__infor {
+        padding-left: 15px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px 0;
+    }
+
+    &__title {
+        text-transform: uppercase;
+        margin-bottom: 5px;
+    }
+
+    &__content {
+        display: block;
+        color: gray;
+        line-height: 2;
+    }
+}

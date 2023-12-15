@@ -1,0 +1,44 @@
+.products {
+    margin-bottom: 120px;
+
+    &__category {
+        display: flex;
+        justify-content: right;
+        gap: 0 35px;
+        margin-bottom: 55px;
+        
+        h5 {
+            letter-spacing: 1px;
+            font-size: 17px;
+            cursor: pointer;
+        }
+
+        &-active {
+            color: #c1582a;
+            border-bottom: 2px solid #c1582a;
+        }
+    }
+
+    &__list {
+        display: none;
+        flex-wrap: wrap;
+        gap: 30px 20px;
+
+        &-active {
+            display: flex;
+        }
+    }
+
+    @media screen and(max-width: 1023px) {
+        margin-bottom: 50px;
+        &__list {
+            gap: 30px 15px;
+        }
+    }
+
+    @media screen and(max-width: 767px) {
+        &__category {
+            margin-bottom: 35px;
+        }
+    }
+}

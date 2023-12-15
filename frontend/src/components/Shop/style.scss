@@ -1,0 +1,27 @@
+.shop {
+    margin-top: 50px;
+    padding: 0 10px;
+
+    &__quantily {
+        margin-bottom: 40px;
+    }
+
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px 20px;
+        margin-bottom: 125px;
+    }
+
+    @media screen and(max-width: 1023px){
+        &__list {
+            gap: 30px 15px;
+        }
+    }
+
+    @media screen and(max-width: 767px){
+        &__list {
+            margin-bottom: 50px;
+        }
+    }
+}
